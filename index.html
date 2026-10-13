@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="Discover premium leather jackets from DECRUM. Shop timeless biker, bomber and classic styles.">
+  <title>DECRUM | Premium Genuine Leather Jackets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--gold:#d4af37;--ink:#121212}
+    html{scroll-behavior:smooth;scroll-padding-top:100px}
+    body{font-family:Inter,sans-serif;background:var(--ink);color:#f3f4f6}
+    h1,h2,h3,.brand{font-family:Montserrat,sans-serif}
+    .gold{color:var(--gold)} .gold-bg{background:var(--gold)}
+    .gold-border{border-color:var(--gold)}
+    .product-image{transition:transform .45s ease}
+    .product-card:hover .product-image{transform:scale(1.045)}
+    .focus-gold:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+    .drawer-backdrop{background:rgba(0,0,0,.68)}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <div class="bg-[#D4AF37] text-black text-center py-2 px-4 text-[11px] sm:text-xs font-bold tracking-wider uppercase">🇺🇸 Free shipping across the USA · Easy 30-day returns</div>
+  <header class="sticky top-0 z-40 bg-[#121212]/95 backdrop-blur border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between gap-4">
+      <a class="brand text-xl sm:text-2xl font-black tracking-[.18em] uppercase focus-gold" href="#home" aria-label="DECRUM home">DECRUM<span class="gold">.</span></a>
+      <nav class="hidden md:flex items-center gap-7 text-xs font-semibold tracking-wider uppercase" aria-label="Main navigation">
+        <a class="gold hover:text-white" href="#home">Home</a><a class="hover:text-[#D4AF37]" href="#products">Shop</a><a class="hover:text-[#D4AF37]" href="#story">Our Craft</a><a class="text-red-400 hover:text-red-300" href="#products">Sale</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <button id="search-toggle" class="focus-gold p-2 hover:text-[#D4AF37]" aria-label="Show product search"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" stroke-width="1.8"/><path d="m16 16 5 5" stroke-width="1.8"/></svg></button>
+        <button id="cart-open" class="focus-gold relative p-2 hover:text-[#D4AF37]" aria-label="Open shopping cart"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 4h2l2.1 11.1a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L21 8H6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg><span id="cart-count" class="absolute top-0 right-0 min-w-4 h-4 px-1 rounded-full bg-[#D4AF37] text-black text-[10px] font-bold flex items-center justify-center">0</span></button>
+        <button id="mobile-menu-toggle" class="md:hidden focus-gold p-2" aria-label="Open menu" aria-expanded="false"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+      </div>
+    </div>
+    <div id="search-bar" class="hidden border-t border-zinc-800 px-4 py-3"><div class="max-w-7xl mx-auto"><label for="search-input" class="sr-only">Search jackets</label><input id="search-input" type="search" placeholder="Search jackets..." class="w-full bg-zinc-900 border border-zinc-700 rounded-sm px-4 py-3 text-sm focus:outline-none focus:border-[#D4AF37]"></div></div>
+    <nav id="mobile-menu" class="hidden md:hidden border-t border-zinc-800 px-5 py-4 space-y-4 text-sm uppercase tracking-wider" aria-label="Mobile navigation"><a class="block gold" href="#home">Home</a><a class="block" href="#products">Shop Jackets</a><a class="block" href="#story">Our Craft</a><a class="block text-red-400" href="#products">Sale</a></nav>
+  </header>
+
+  <main>
+    <section id="home" class="border-b border-zinc-800 bg-gradient-to-br from-zinc-900 via-[#171717] to-black overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="text-center lg:text-left">
+          <span class="inline-flex items-center gap-2 text-[#D4AF37] text-[10px] sm:text-xs font-bold uppercase tracking-[.22em] bg-[#D4AF37]/10 px-3 py-2 border border-[#D4AF37]/20 rounded-full"><span class="w-1.5 h-1.5 rounded-full bg-[#D4AF37]"></span> Made for the long run</span>
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black uppercase leading-[1.05] tracking-tight">Wear your<br><span class="gold">own story.</span></h1>
+          <p class="mt-6 text-zinc-400 text-base sm:text-lg leading-8 max-w-xl mx-auto lg:mx-0">Timeless leather jackets. Confident silhouettes. Everyday pieces designed to get better with every mile.</p>
+          <div class="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-3"><a href="#products" class="focus-gold gold-bg text-black font-bold px-7 py-4 uppercase text-xs tracking-[.15em] hover:bg-white text-center transition">Shop the collection ↗</a><a href="#story" class="focus-gold border border-zinc-600 px-7 py-4 uppercase text-xs tracking-[.15em] font-bold hover:border-[#D4AF37] hover:text-[#D4AF37] text-center transition">Discover our craft</a></div>
+          <div class="mt-10 pt-6 border-t border-zinc-800 grid grid-cols-3 gap-3 text-[10px] sm:text-xs text-zinc-400"><div><span class="block text-white text-lg mb-1">01</span>Considered design</div><div><span class="block text-white text-lg mb-1">02</span>Quality materials</div><div><span class="block text-white text-lg mb-1">03</span>Made to wear</div></div>
+        </div>
+        <div class="relative max-w-lg mx-auto w-full">
+          <div class="absolute -inset-4 border border-[#D4AF37]/20 translate-x-2 translate-y-2"></div>
+          <img class="relative w-full aspect-[4/5] object-cover object-center bg-zinc-800" src="https://images.unsplash.com/photo-1520975958225-1c6d6c3e8a8e?auto=format&fit=crop&w=1000&q=85" alt="Editorial leather jacket style" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=85'">
+          <div class="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 bg-black/75 backdrop-blur px-4 py-4 flex items-center justify-between"><div><p class="text-[10px] uppercase tracking-[.2em] gold">The signature edit</p><p class="font-bold mt-1">Classics, reimagined.</p></div><a href="#products" class="gold text-xl" aria-label="Shop signature edit">↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-b border-zinc-800 bg-black">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 text-center sm:text-left">
+        <div class="flex items-center justify-center sm:justify-start gap-3"><span class="gold text-xl">✦</span><div><p class="text-xs font-bold uppercase tracking-wider">Thoughtful materials</p><p class="text-xs text-zinc-500 mt-1">Made to be worn on repeat</p></div></div>
+        <div class="flex items-center justify-center sm:justify-start gap-3"><span class="gold text-xl">↺</span><div><p class="text-xs font-bold uppercase tracking-wider">Easy returns</p><p class="text-xs text-zinc-500 mt-1">30-day return window</p></div></div>
+        <div class="flex items-center justify-center sm:justify-start gap-3"><span class="gold text-xl">◇</span><div><p class="text-xs font-bold uppercase tracking-wider">Secure shopping</p><p class="text-xs text-zinc-500 mt-1">Your cart stays on this device</p></div></div>
+      </div>
+    </section>
+
+    <section id="products" class="py-16 sm:py-20 bg-[#171717]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-5 mb-8 sm:mb-10"><div><p class="gold text-[10px] font-bold uppercase tracking-[.25em] mb-3">Find your fit</p><h2 class="text-3xl sm:text-4xl font-black uppercase tracking-tight">The jacket edit</h2><p class="text-zinc-400 text-sm mt-3">Everyday icons. A little more character.</p></div><div class="flex gap-2 flex-wrap" role="group" aria-label="Filter products"><button data-filter="all" class="filter-btn border border-[#D4AF37] bg-[#D4AF37] text-black px-4 py-2 text-[10px] font-bold uppercase tracking-wider">All</button><button data-filter="men" class="filter-btn border border-zinc-700 px-4 py-2 text-[10px] font-bold uppercase tracking-wider hover:border-[#D4AF37]">Men</button><button data-filter="women" class="filter-btn border border-zinc-700 px-4 py-2 text-[10px] font-bold uppercase tracking-wider hover:border-[#D4AF37]">Women</button></div></div>
+        <p id="no-results" class="hidden text-zinc-400 py-12 text-center">No jackets match that search. Try another term.</p>
+        <div id="product-grid" class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6"></div>
+      </div>
+    </section>
+
+    <section id="story" class="py-16 sm:py-24 bg-black border-y border-zinc-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 lg:gap-20 items-center">
+        <div><p class="gold text-[10px] font-bold uppercase tracking-[.25em] mb-3">The DECRUM point of view</p><h2 class="text-3xl sm:text-4xl font-black uppercase leading-tight">Less noise.<br><span class="gold">More character.</span></h2><p class="text-zinc-400 leading-7 mt-5 text-sm sm:text-base">We believe a great jacket earns its place in your wardrobe. Start with a versatile silhouette, focus on the details, and make room for the way you wear it.</p><a href="#products" class="inline-block mt-7 gold-bg text-black font-bold px-6 py-3 uppercase tracking-wider text-xs hover:bg-white transition">Find your jacket ↗</a></div>
+        <div class="grid grid-cols-2 gap-3 sm:gap-5"><img class="w-full aspect-[3/4] object-cover" src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80" alt="Classic leather outerwear detail" loading="lazy"><img class="w-full aspect-[3/4] object-cover mt-8" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80" alt="Contemporary fashion editorial" loading="lazy"></div>
+      </div>
+    </section>
+    <section class="py-12 sm:py-16 bg-[#D4AF37] text-black text-center px-4"><p class="text-[10px] font-bold uppercase tracking-[.25em]">Your next everyday icon</p><h2 class="mt-3 text-2xl sm:text-4xl font-black uppercase">Good style never clocks out.</h2><a href="#products" class="inline-block mt-6 bg-black text-white px-7 py-3 uppercase text-xs tracking-widest font-bold hover:bg-zinc-800 transition">Shop jackets</a></section>
+  </main>
+
+  <footer class="bg-[#101010] border-t border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div><a class="brand text-xl font-black tracking-[.18em]" href="#home">DECRUM<span class="gold">.</span></a><p class="text-xs text-zinc-500 leading-6 mt-4 max-w-xs">Leather-inspired essentials for a wardrobe with staying power.</p></div>
+      <div><h3 class="text-xs uppercase tracking-widest font-bold">Explore</h3><a class="block text-xs text-zinc-500 hover:text-[#D4AF37] mt-4" href="#products">Shop all</a><a class="block text-xs text-zinc-500 hover:text-[#D4AF37] mt-3" href="#story">Our story</a></div>
+      <div><h3 class="text-xs uppercase tracking-widest font-bold">Customer care</h3><p class="text-xs text-zinc-500 mt-4 leading-6">Add your support email and published shipping and return policies before launch.</p></div>
+      <div><h3 class="text-xs uppercase tracking-widest font-bold">Stay in the loop</h3><form id="newsletter" class="mt-4 flex"><label class="sr-only" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" required placeholder="Email address" class="min-w-0 w-full bg-zinc-900 border border-zinc-700 px-3 py-3 text-xs focus:outline-none focus:border-[#D4AF37]"><button class="gold-bg text-black px-4 text-xs font-bold" type="submit">JOIN</button></form><p id="newsletter-message" class="text-xs text-zinc-500 mt-2">Demo form only; connect an email service to collect signups.</p></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 border-t border-zinc-800 text-[10px] text-zinc-600 flex flex-col sm:flex-row justify-between gap-2"><span>© <span id="year"></span> DECRUM. All rights reserved.</span><span>Independent storefront demo · Prices and product details are illustrative</span></div>
+  </footer>
+
+  <div id="cart-backdrop" class="hidden fixed inset-0 z-50 drawer-backdrop" aria-hidden="true"></div>
+  <aside id="cart-drawer" class="fixed top-0 right-0 z-[60] h-full w-full max-w-md bg-[#151515] border-l border-zinc-800 translate-x-full transition-transform duration-300 flex flex-col" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="p-5 border-b border-zinc-800 flex items-center justify-between"><div><p class="gold text-[10px] uppercase tracking-[.2em]">Your selection</p><h2 id="cart-title" class="text-xl font-bold mt-1">Shopping bag</h2></div><button id="cart-close" class="p-2 text-2xl hover:text-[#D4AF37]" aria-label="Close shopping cart">×</button></div>
+    <div id="cart-items" class="p-5 flex-1 overflow-y-auto"></div>
+    <div class="p-5 border-t border-zinc-800"><div class="flex justify-between text-sm mb-4"><span class="text-zinc-400">Subtotal</span><strong id="cart-subtotal">$0.00</strong></div><p class="text-xs text-zinc-500 mb-4">Shipping and taxes calculated separately. Demo only: checkout is not connected to payments.</p><button id="checkout-button" class="w-full gold-bg text-black py-4 uppercase text-xs tracking-widest font-bold hover:bg-white">Continue to checkout</button></div>
+  </aside>
+  <div id="toast" class="fixed z-[70] bottom-5 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-black px-5 py-3 text-xs font-bold shadow-xl opacity-0 pointer-events-none transition-opacity" role="status" aria-live="polite"></div>
+
+  <script>
+    const products = [
+      {id:1,name:"Classic Black Biker",category:"men",price:299,oldPrice:375,tag:"Save 20%",image:"https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80",alt:"Black leather biker jacket"},
+      {id:2,name:"Vintage Brown Bomber",category:"men",price:279,oldPrice:340,tag:"Bestseller",image:"https://images.unsplash.com/photo-1520975682031-ae8b6c1a9b2b?auto=format&fit=crop&w=700&q=80",alt:"Vintage brown bomber jacket"},
+      {id:3,name:"Minimal Moto Jacket",category:"women",price:259,oldPrice:0,tag:"New arrival",image:"https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",alt:"Modern moto-inspired outfit"},
+      {id:4,name:"Midnight Racer",category:"men",price:319,oldPrice:0,tag:"Essential",image:"https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=700&q=80",alt:"Black contemporary jacket"},
+      {id:5,name:"Cropped Street Jacket",category:"women",price:249,oldPrice:295,tag:"Limited edit",image:"https://images.unsplash.com/photo-1548126032-079a0fb0099d?auto=format&fit=crop&w=700&q=80",alt:"Streetwear jacket styling"},
+      {id:6,name:"Heritage Flight Bomber",category:"men",price:289,oldPrice:0,tag:"Classic",image:"https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80",alt:"Heritage-inspired jacket"},
+      {id:7,name:"Everyday Moto",category:"women",price:269,oldPrice:320,tag:"Save 16%",image:"https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",alt:"Everyday fashion look"},
+      {id:8,name:"Suede-look Trucker",category:"men",price:239,oldPrice:0,tag:"New arrival",image:"https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",alt:"Casual jacket styling"}
+    ];
+    const money = n => new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"}).format(n);
+    let activeFilter="all", searchTerm="", cart=loadCart(), toastTimer;
+    function loadCart(){try{return JSON.parse(localStorage.getItem("decrum-cart")||"{}")}catch{return {}}}
+    function saveCart(){try{localStorage.setItem("decrum-cart",JSON.stringify(cart))}catch{}}
+    function showToast(message){const el=document.getElementById("toast");el.textContent=message;el.classList.remove("opacity-0");clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.add("opacity-0"),2200)}
+    function renderProducts(){
+      const visible=products.filter(p=>(activeFilter==="all"||p.category===activeFilter)&&p.name.toLowerCase().includes(searchTerm));
+      document.getElementById("no-results").classList.toggle("hidden",visible.length>0);
+      document.getElementById("product-grid").innerHTML=visible.map(p=>`<article class="product-card group bg-[#101010] border border-zinc-800 p-2.5 sm:p-4 flex flex-col hover:border-zinc-600 transition" >
+        <div class="relative overflow-hidden bg-zinc-900 aspect-[3/4]"><img class="product-image w-full h-full object-cover" src="${p.image}" alt="${p.alt}" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80'"><span class="absolute top-2 left-2 bg-[#D4AF37] text-black px-2 py-1 text-[8px] sm:text-[9px] uppercase tracking-wider font-bold">${p.tag}</span></div>
+        <div class="pt-3 flex-1"><p class="text-[9px] uppercase tracking-[.18em] text-zinc-500">${p.category==="men"?"Men's collection":"Women's collection"}</p><h3 class="text-[11px] sm:text-sm font-bold uppercase leading-5 mt-1 group-hover:text-[#D4AF37]">${p.name}</h3><div class="flex flex-wrap items-center gap-2 mt-2 mb-4"><span class="gold font-bold text-xs sm:text-sm">${money(p.price)}</span>${p.oldPrice?`<span class="text-zinc-600 line-through text-[10px]">${money(p.oldPrice)}</span>`:""}</div></div>
+        <button class="add-to-cart w-full border border-zinc-700 hover:border-[#D4AF37] hover:bg-[#D4AF37] hover:text-black py-2.5 text-[9px] sm:text-[10px] uppercase tracking-widest font-bold transition focus-gold" data-id="${p.id}">Add to bag +</button></article>`).join("");
+      document.querySelectorAll(".add-to-cart").forEach(btn=>btn.addEventListener("click",()=>addToCart(Number(btn.dataset.id))));
+    }
+    function addToCart(id){cart[id]=(cart[id]||0)+1;saveCart();renderCart();showToast("Added to your bag")}
+    function changeQty(id,delta){cart[id]=(cart[id]||0)+delta;if(cart[id]<=0)delete cart[id];saveCart();renderCart()}
+    function renderCart(){
+      const entries=products.filter(p=>cart[p.id]>0), count=entries.reduce((s,p)=>s+cart[p.id],0), subtotal=entries.reduce((s,p)=>s+p.price*cart[p.id],0);
+      document.getElementById("cart-count").textContent=count;document.getElementById("cart-subtotal").textContent=money(subtotal);
+      document.getElementById("cart-items").innerHTML=entries.length?entries.map(p=>`<div class="flex gap-4 py-4 border-b border-zinc-800"><img class="w-20 h-24 object-cover bg-zinc-900" src="${p.image}" alt=""><div class="flex-1"><h3 class="text-xs font-bold uppercase">${p.name}</h3><p class="gold text-sm mt-2">${money(p.price)}</p><div class="flex items-center gap-3 mt-3 text-sm"><button class="qty-btn border border-zinc-700 w-7 h-7" data-id="${p.id}" data-delta="-1" aria-label="Decrease quantity">−</button><span>${cart[p.id]}</span><button class="qty-btn border border-zinc-700 w-7 h-7" data-id="${p.id}" data-delta="1" aria-label="Increase quantity">+</button><button class="remove-btn text-xs text-zinc-500 underline ml-auto" data-id="${p.id}">Remove</button></div></div></div>`).join(""):'<div class="text-center py-16"><p class="text-3xl mb-4">◇</p><p class="font-bold">Your bag is taking a break.</p><p class="text-sm text-zinc-500 mt-2">Add a jacket you love to get started.</p><button id="empty-shop" class="mt-6 gold-bg text-black px-5 py-3 text-xs font-bold uppercase">Explore jackets</button></div>';
+      document.querySelectorAll(".qty-btn").forEach(b=>b.addEventListener("click",()=>changeQty(Number(b.dataset.id),Number(b.dataset.delta))));
+      document.querySelectorAll(".remove-btn").forEach(b=>b.addEventListener("click",()=>{delete cart[b.dataset.id];saveCart();renderCart()}));
+      const shop=document.getElementById("empty-shop");if(shop)shop.addEventListener("click",()=>{closeCart();document.getElementById("products").scrollIntoView()});
+    }
+    const drawer=document.getElementById("cart-drawer"), backdrop=document.getElementById("cart-backdrop");
+    function openCart(){drawer.classList.remove("translate-x-full");backdrop.classList.remove("hidden");drawer.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";document.getElementById("cart-close").focus()}
+    function closeCart(){drawer.classList.add("translate-x-full");backdrop.classList.add("hidden");drawer.setAttribute("aria-hidden","true");document.body.style.overflow="";document.getElementById("cart-open").focus()}
+    document.getElementById("cart-open").addEventListener("click",openCart);document.getElementById("cart-close").addEventListener("click",closeCart);backdrop.addEventListener("click",closeCart);
+    document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!drawer.classList.contains("translate-x-full"))closeCart()});
+    document.getElementById("mobile-menu-toggle").addEventListener("click",e=>{const menu=document.getElementById("mobile-menu"),open=menu.classList.toggle("hidden")===false;e.currentTarget.setAttribute("aria-expanded",String(open));e.currentTarget.setAttribute("aria-label",open?"Close menu":"Open menu")});
+    document.querySelectorAll("#mobile-menu a").forEach(a=>a.addEventListener("click",()=>{document.getElementById("mobile-menu").classList.add("hidden");document.getElementById("mobile-menu-toggle").setAttribute("aria-expanded","false")}));
+    document.getElementById("search-toggle").addEventListener("click",()=>{const bar=document.getElementById("search-bar");bar.classList.toggle("hidden");if(!bar.classList.contains("hidden"))document.getElementById("search-input").focus()});
+    document.getElementById("search-input").addEventListener("input",e=>{searchTerm=e.target.value.trim().toLowerCase();renderProducts();document.getElementById("products").scrollIntoView({behavior:"smooth"})});
+    document.querySelectorAll(".filter-btn").forEach(btn=>btn.addEventListener("click",()=>{activeFilter=btn.dataset.filter;document.querySelectorAll(".filter-btn").forEach(b=>{const selected=b===btn;b.classList.toggle("bg-[#D4AF37]",selected);b.classList.toggle("text-black",selected);b.classList.toggle("border-[#D4AF37]",selected);b.classList.toggle("border-zinc-700",!selected)});renderProducts()}));
+    document.getElementById("checkout-button").addEventListener("click",()=>showToast("Demo store: connect a payment provider to enable checkout."));
+    document.getElementById("newsletter").addEventListener("submit",e=>{e.preventDefault();document.getElementById("newsletter-message").textContent="Thanks! This demo does not send or store email signups.";e.target.reset()});
+    document.getElementById("year").textContent=new Date().getFullYear();
+    renderProducts();renderCart();
+  </script>
+</body>
+</html>
